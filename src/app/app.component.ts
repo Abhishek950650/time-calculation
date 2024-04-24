@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'time-calculation';
+
+  ngOnInit(){
+  }
+
+  starttime(){
+    console.log('start');
+  }
+
+  endtime(){
+    console.log('end');
+  }
 }
