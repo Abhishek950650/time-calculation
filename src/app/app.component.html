@@ -7,11 +7,14 @@
       <th>End Time</th>
     </tr>
     <tr>
-      <td><input type="time" name="start" (change)="starttime()" /></td>
-      <td><input type="time" name="end" (change)="endtime()" /></td>
+      <td><input type="time" name="start" (change)="starttime($event)" /></td>
+      <td><input type="time" name="end" (change)="endtime($event)" /></td>
     </tr>
     <tr>
-      <td colspan="2">your calculated time is here :</td>
+      <td colspan="2"><button style="margin-left: 180px;" type="submit" (click)="calculate()">Calculate</button></td>
+    </tr>
+    <tr>
+      <td colspan="2">your calculated time is here : total hour : {{total_hour}}</td>
     </tr>
   </table>
 </div>
