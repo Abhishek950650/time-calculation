@@ -10,6 +10,9 @@ export class AppComponent {
 
   ngOnInit() {
     this.case1(); // case AM to AM
+    this.case2(); // case AM to PM
+    this.case3(); // case PM to PM
+    this.case4(); // case AM to PM
   }
 
   starttime() {
