@@ -10,7 +10,7 @@ export class AppComponent {
   total_hour: any;
   start_time: any;
   end_time: any;
-
+  //Author : Abhishek Kumar Jaiswal
   ngOnInit() {
     this.case1(); // case AM to AM
     this.case2(); // case AM to PM
